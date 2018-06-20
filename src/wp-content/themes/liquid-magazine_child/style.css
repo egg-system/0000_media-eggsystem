@@ -1,0 +1,296 @@
+/*
+Template:liquid-magazine
+Theme Name:liquid-magazine_child
+Description:liquid-magazine の子テーマです
+Author:EGG SYSTEM
+Version:1.0
+*/
+
+/* トップ画像 */
+.carousel-indicators{
+	display: none;
+}
+
+/* ヘッダーエリア */
+nav.navbar{
+/*	border-top:solid 1px #6091d3; */
+/*	border-bottom:solid 1px #6091d3; */
+/*	background-color:white; */
+}
+
+h1.ttl_h1{
+	font-size:25px;
+}
+
+/* メニューバー */
+.menu-text{
+	float:right;
+	padding-top:11px;
+	padding-left:5px;
+}
+
+/* メニューエリアのアイコン */
+img.menu-img{
+	width:40px;
+}
+
+/* ヘッダーエリア */
+.headline{
+	padding: 0.5rem 0;
+}
+
+/* ヘッダーのロゴ */
+.logo img{
+	height: 55px !important;
+}
+
+/* ブログの装飾 */
+.post_body h3{
+/*	background-color:#f2dae0;  */ /* 薄いピンク */
+	background-color:#bfd8ff; /* 青色 */
+	padding:10px 0 10px 15px;
+	border-radius:5px;
+	font-size: 22px	
+}
+.post_body h2{
+	font-size: 25px;
+}
+.post_body .single .entry-meta {
+	border-bottom:solid 3px #666;
+	padding-bottom:20px;
+}
+
+
+
+/* 記事詳細ページのタイトル */
+h1.ttl_h1.entry-title{
+	font-size: 25px	
+}
+
+
+.smartphone-slide-list{
+	display: none;
+}
+/* スマホ対応 */
+@media screen and (max-width:767px){
+	/* メニューの開業準備マニュアルの横位置調整 */
+	li#menu-item-169{
+		margin-left:1rem;
+	}
+	/* ヘッダーエリア */
+	nav.navbar{
+		border-top:solid 0px #6091d3;
+		border-bottom:solid 0px #6091d3;
+	}
+	h1.ttl_h1.entry-title{
+	font-size: 25px	
+	}
+	.post_body h3{
+		font-size:18px;
+	}
+	#carousel-generic{
+		display: none;
+	}
+	
+	.smartphone-slide-list {
+		margin: -17px auto;
+		position: relative;
+		display: block;
+	}
+
+	.smartphone-slide-list img {
+		width: 100%;
+		animation-name: album;
+	    animation-duration: 10s;
+	    animation-iteration-count: infinite;
+	    opacity: 0;
+	}
+ 
+	.smartphone-slide-img1 {
+		display: block;
+	    margin: 0 auto;
+	}
+	
+	.smartphone-slide-img2 {
+		position: absolute;
+	    top: 0;
+		animation-delay:5s;
+	}
+ 
+	@keyframes album {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0;
+	}
+}
+}
+
+/* 詳細ページのトピックス装飾 */
+.topics {
+	border:solid 1px #aaa;
+}
+.topics p {
+	text-align: center;
+	padding-top: 10px;
+}
+.topics ul {
+	list-style-type: none;
+	list-style: none;
+	padding-left:20px;
+	padding-right:20px;
+}
+.topics ul li { 
+	text-align: left;
+	border-top: 1px dotted #ddd;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+/* お問い合わせ　囲い線 */
+.box-01 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: black;/*文字色*/	
+    background: #FFF;
+    border: solid 3px #1f55a5;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box-01 p {
+    margin: 0; 
+    padding: 0;
+}
+.box-02 {
+   padding: 0.5em 1em;
+   margin: 2em 0;
+   font-weight: bold;
+   color: black;/*文字色*/	
+   background: #FFF;
+   border: solid 3px #1f55a5;/*線*/
+	text-align: center;
+}
+.line{
+	float:none;
+}
+
+
+/* フォント文字色→黒 */
+.list-text{
+	color: black;
+}
+
+/* 記事詳細ページの「SNSでフォローする」 */
+.follow.ab-light{
+	background-color: #eceeef !important;
+}
+.follow.ab-dark{
+	background-color: #eceeef !important;	/* ab-lightの薄い色と合わせる */
+}
+/* 「SNSでフォローする」 */
+.share{
+	color:black;
+}
+
+/* フッターのメニューエリア */
+.menu-footer-menu-container{
+	font-size: 13px;
+}
+
+
+/* -----サイドバー----- */
+/* カテゴリ */
+.widget ul li ul{
+	border-left:none;
+}
+/* タグ */
+.tagcloud {
+  margin-top: 0.5em;
+}
+.tagcloud a {
+	text-decoration: none;
+	padding: 0.1em 0.5em;
+	margin: 0 0.1em 0.2em 0;
+	display: inline-block;
+	font-size: 15px !important;
+/*	background: #e86a6f	; */
+	background: #1F55A5;
+	color: #fff;
+	border-radius: 10px;/*角の丸み*/
+}
+/* タグクリック後 */
+.tagcloud　a:hover{
+	color: #f9f9f9 !important;
+}
+.tagcloud　a:visited{
+	color: #f9f9f9 !important;
+}
+.tag-cloud-link　a:hover{
+	color: #f9f9f9 !important;
+}
+.tag-cloud-link　a:visited{
+	color: #f9f9f9 !important;
+}
+
+/* -----人気ランキング----- */
+/* カウンターの初期化 */
+.wpp-list {
+    counter-reset: wpp-ranking;
+}
+/* カウンターの値を表示 */
+.wpp-list li:before {
+    content: counter(wpp-ranking, decimal);
+    counter-increment: wpp-ranking;
+}
+.wpp-list li {
+    position: relative;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.wpp-list li:before {
+    content: counter(wpp-ranking, decimal);
+    counter-increment: wpp-ranking;
+/*	 background: rgba(232,106,111, 0.6); ピンク*/
+	 background: rgba(31,85,165, 0.6);
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    padding: 4px 8px;
+    position: absolute;
+    left: 0;
+    top: 13px;
+    z-index: 1;
+}
+/* 20180615 add */
+.popular-posts .wpp-thumbnail{
+	width: 75px;
+}
+
+
+/* お問い合わせ送信ボタン */
+.btn-primary{
+	background-color: #1f55a5;
+	border-color: #1f55a5;
+	margin-left: 100px; /* 位置を真ん中へ */
+	width:150px;
+}
+/* インタビュー記事の肩書 */
+.personal-title ul li{
+	border-bottom: none;
+}
+
+/* 20180614 add*/
+@media screen and (max-width:767px){
+	.list_big .post_thumb{
+		background-position-y: top !important;
+		background-size: 100% !important;
+	}
+}

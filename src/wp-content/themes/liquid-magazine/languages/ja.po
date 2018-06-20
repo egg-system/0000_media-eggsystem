@@ -1,0 +1,191 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: liquid-magazine\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2017-07-18 12:41+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: LIQUID PRESS <info@lqd.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:6
+#, fuzzy
+msgid "Not found."
+msgstr "Not found."
+
+#: archive.php:23 index.php:108
+msgid "What&rsquo;s New"
+msgstr "新着記事"
+
+#: archive.php:61 index.php:149
+msgid "Articles"
+msgstr "記事一覧"
+
+#: archive.php:85 index.php:175 page.php:62 search.php:71 single.php:153
+#: single.php:246
+#, fuzzy
+msgid "No articles"
+msgstr "No articles"
+
+#: comments.php:12
+#, php-format
+msgid "Comment (%1$s)"
+msgid_plural "Comments (%1$s)"
+msgstr[0] ""
+
+#: footer.php:57
+#, fuzzy
+msgid "(C)"
+msgstr "(C)"
+
+#: footer.php:57
+#, fuzzy
+msgid ". All rights reserved."
+msgstr ". All rights reserved."
+
+#: footer.php:61
+#, fuzzy
+msgid "Theme by"
+msgstr "Theme by"
+
+#: footer.php:61
+#, fuzzy
+msgid "Responsive WordPress Theme LIQUID PRESS"
+msgstr "Responsive WordPress Theme LIQUID PRESS"
+
+#: footer.php:61
+#, fuzzy
+msgid "LIQUID PRESS"
+msgstr "LIQUID PRESS"
+
+#: functions.php:1042 functions.php:1131 functions.php:1182 functions.php:1236
+#: functions.php:1300
+#, fuzzy
+msgid "Title:"
+msgstr "Title:"
+
+#: functions.php:1048
+#, fuzzy
+msgid "Facebook Page URL:"
+msgstr "Facebook Page URL:"
+
+#: functions.php:1134
+#, fuzzy
+msgid "Number of posts to show:"
+msgstr "Number of posts to show:"
+
+#: functions.php:1188
+msgid "User:"
+msgstr ""
+
+#: functions.php:1306
+msgid "Display:"
+msgstr ""
+
+#: functions.php:1318
+msgid "Columns number of post:"
+msgstr ""
+
+#: functions.php:1480 single.php:164
+#, fuzzy
+msgid "&laquo; Prev"
+msgstr "&laquo; Prev"
+
+#: functions.php:1481 single.php:172
+#, fuzzy
+msgid "Next &raquo;"
+msgstr "Next &raquo;"
+
+#: header.php:24
+#, fuzzy
+msgid "TOP"
+msgstr "TOP"
+
+#: header.php:223
+#, fuzzy
+msgid "Toggle navigation"
+msgstr "Toggle navigation"
+
+#: popularposts.php:78 popularposts.php:90
+msgid "What&rsquo;s Hot"
+msgstr "人気記事"
+
+#: search.php:12
+#, fuzzy, php-format
+msgid "Search: %s"
+msgstr "Search: %s"
+
+#: searchform.php:4 searchform.php:5
+#, fuzzy
+msgid "Search"
+msgstr "Search"
+
+#: share.php:4
+#, fuzzy
+msgid "Facebook"
+msgstr "Facebook"
+
+#: share.php:7
+#, fuzzy
+msgid "Twitter"
+msgstr "Twitter"
+
+#: share.php:10
+#, fuzzy
+msgid "Google+"
+msgstr "Google+"
+
+#: share.php:13
+#, fuzzy
+msgid "Hatena"
+msgstr "はてブ"
+
+#: share.php:16
+#, fuzzy
+msgid "Pocket"
+msgstr "Pocket"
+
+#: share.php:19
+#, fuzzy
+msgid "LINE"
+msgstr "LINE"
+
+#: sidebar.php:7
+msgid "Categories"
+msgstr ""
+
+#: sidebar.php:13
+msgid "Tags"
+msgstr ""
+
+#: single.php:86
+msgid "by"
+msgstr ""
+
+#: single.php:109
+msgid "Contact"
+msgstr "お問い合せ"
+
+#: single.php:119
+msgid "Follow"
+msgstr "SNSでフォローする"
+
+#: single.php:179
+msgid "Recommend"
+msgstr "関連記事"

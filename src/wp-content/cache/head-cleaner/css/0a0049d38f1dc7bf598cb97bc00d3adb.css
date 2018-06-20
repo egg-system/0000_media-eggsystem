@@ -1,0 +1,7 @@
+.widget-customizer-highlighted-widget{outline:none;-webkit-box-shadow:0 0 2px rgba(30,140,190,0.8);box-shadow:0 0 2px rgba(30,140,190,0.8);position:relative;z-index:1}img.wp-smiley,img.emoji{display:inline !important;border:none !important;box-shadow:none !important;height:1em !important;width:1em !important;margin:0
+.07em !important;vertical-align: -0.1em !important;background:none !important;padding:0
+!important}body.wp-customizer-unloading{opacity:0.25;cursor:progress !important;-webkit-transition:opacity 0.5s;transition:opacity 0.5s}body.wp-customizer-unloading
+*{pointer-events:none !important}form.customize-unpreviewable,
+form.customize-unpreviewable input,
+form.customize-unpreviewable select,
+form.customize-unpreviewable button,a.customize-unpreviewable,area.customize-unpreviewable{cursor:not-allowed !important}
